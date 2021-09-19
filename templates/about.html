@@ -4,14 +4,7 @@
         <h1>About Me...</h1>
         <ol>
             <p> 
-                {% for name in names %}
-                    {% if name == 'Wes' %} 
-                        <li> Wes is The Best!!</li>
-                    {% else %}
-                        <li> {{ name }} </li>
-                    {% endif %}
-
-                {% endfor %}
+                {{ detail }}                    
             </p>
 
         </ol>
